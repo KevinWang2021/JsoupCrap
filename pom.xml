@@ -148,7 +148,7 @@
                     <execution>
                         <id>make-assembly</id>
                         <!-- 将组装绑定到maven生命周期的哪一阶段 -->
-                        <!--<phase>package</phase>-->
+                        <phase>package</phase>
                         <goals>
                             <!-- 指定assembly插件的打包方式-->
                             <goal>single</goal>
